@@ -1,95 +1,248 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Armaan Mangaonkar | Data Scientist</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Armaan M</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Armaan is aspiring Data Scientist &amp; SQL Developer"
+    />
+    <meta name="author" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/kube.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/custom.min.css" />
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Playfair+Display+SC:700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <style>
+      .intro h1:before {
+        margin-left: -8rem;
+        /* Edit this with your name or anything else */
+        content: "Armaan";
+      }
+      .menu {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+      }
+
+      .options {
+        display: none;
+        position: absolute;
+        width: 12rem;
+        top: 100%;
+        left: 0;
+        background: #f4f4f4;
+        padding: 10px;
+        list-style: none;
+        border: 1px solid #ccc;
+        transition: 1.5s;
+      }
+
+      .menu:hover .options {
+        display: block;
+      }
+
+      .options li {
+        padding: 5px 10px;
+        cursor: pointer;
+      }
+
+      .options li:hover {
+        background: #ddd;
+        transition: 1.5s;
+      }	  
+    </style>
   </head>
   <body>
-    <!-- Header -->
-    <header>
-      <h1>Armaan M</h1>
-      <nav>
-        <a>Resume</a>
-      </nav>
-    </header>
-
-    <!-- Hero Section -->
-    <section class="hero">
-      <h2>Data Scientist & Analyst</h2>
-      <p>Passionate about Python, SQL, and uncovering insights from data.</p>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="section">
-      <h2>About Me</h2>
-      <p>
-        I’m a data enthusiast with experience in data cleaning, data
-        visualization, and statistical analysis.
-      </p>
-      <a href="resume.pdf" target="_blank">Download Resume</a>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="section">
-      <h2>Projects</h2>
-      <div class="project">
-        <h3>Sales Dashboard</h3>
-        <p>
-          Created an interactive dashboard using Excel and Tableau to monitor
-          KPIs.
-        </p>
-        <a href="https://github.com/yourusername/sales-dashboard"
-          >View on GitHub</a
-        >
-      </div>
-      <div class="project">
-        <h3>Customer Segmentation</h3>
-        <p>
-          Used K-Means clustering to identify customer groups based on purchase
-          data.
-        </p>
-        <a href="https://github.com/yourusername/customer-segmentation"
-          >View on GitHub</a
-        >
-      </div>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills" class="section">
-      <h2>Skills</h2>
-      <ul>
-        <li>Python</li>
-        <li>Pandas & NumPy</li>
-        <li>SQL</li>
-        <li>Tableau / Power BI</li>
-      </ul>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-      <div class="contacts">
-        <h2>Contact Us</h2>
-        <p>Email: armaanshaikh0706@gmail.com</p>
-        <p>
-          LinkedIn:
-          <a href="https://www.linkedin.com/in/armaan-mangaonkar-88620a298/"
-            >armaan-mangaonkar</a
+    <!-- Navigation -->
+    <div class="main-nav">
+      <div class="container">
+        <header class="group top-nav">
+          <div
+            class="navigation-toggle"
+            data-tools="navigation-toggle"
+            data-target="#navbar-1"
           >
-        </p>
+            <span class="logo">Armaan M</span>
+          </div>
+          <nav
+            id="navbar-1"
+            class="navbar item-nav"
+            style="display: flex; justify-content: space-between; width: 100%"
+          >
+            <ul>
+              <li style="font-size: large">Armaan M</li>
+            </ul>
+            <ul>
+              <li class="active"><a href="#about">About</a></li>
+              <li><a href="#experiences">Experiences</a></li>
+              <li><a href="#achievements">Achievements</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li class="menu">
+                Resume
+                <ul class="options">
+                  <li>
+                    <a href="./assets/ds_resume.pdf" target="_blank"
+                      >Data Science</a
+                    >
+                  </li>
+                  <li>
+                    <a href="./assets/da_resume.pdf" target="_blank"
+                      >Data Analytics</a
+                    >
+                  </li>
+                  <li>
+                    <a href="./assets/sql_resume.pdf" target="_blank"
+                      >SQL Developer</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </header>
       </div>
-      <hr />
-      <p>All rights reserved &copy; 2025 Armaan</p>
+    </div>
+
+    <!-- Introduction -->
+    <div class="intro section" id="about">
+      <div class="container">
+        <p>I’m Armaan M - Aspiring Data Scientist</p>
+        <div class="units-row units-split wrap">
+          <div class="unit-20">
+            <img src="img/armnProfile.jpg" alt="Avatar" />
+          </div>
+          <div class="unit-80">
+            <h1>I Thrive for<br /><span id="typed"></span></h1>
+          </div>
+          <p>
+            Armaan is an aspiring Data Scientist with a strong interest in data
+            science, analytics, and database development. Driven by a passion
+            for uncovering patterns, generating insights, and crafting
+            data-driven solutions, Armaan combines statistical expertise,
+            machine learning techniques, and SQL proficiency to transform raw
+            data into meaningful outcomes. Grounded in analytical thinking and
+            precision, Armaan approaches each challenge with a mindset of
+            continuous learning and improvement—consistently evolving, adapting,
+            and contributing to the ever-changing landscape of modern data.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Work Experience -->
+    <div class="work section second" id="experiences">
+      <div class="container">
+        <h1>Work<br />Experiences</h1>
+        <ul class="work-list">
+          <!-- <li>2014-2015</li> -->
+          <li><a href="#">Yet To Explore</a></li>
+          <!-- <li>Web Designer</li> -->
+        </ul>
+      </div>
+    </div>
+
+    <!-- Award & Achievements -->
+    <div class="award section second" id="achievements">
+      <div class="container">
+        <h1>Award &amp;<br />Achievements</h1>
+        <ul class="award-list list-flat">
+          <li></li>
+          <li>
+            1. Discipline Course AI Tools weekly workshop based on applications of
+            10+ AI Tools.
+          </li>
+          <li>
+            2. Technical Lead Social Sutra Intercollegiate Event on multiple
+            cultural fun lead to handle 80+ participants.
+          </li>
+          <li>
+            3. Lead Security Team GlamNGlitz talent hunt event, drawing 200+
+            attendees.
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Technical Skills -->
+    <div class="skills section second" id="skills">
+      <div class="container">
+        <h1>Technical<br />Skills</h1>
+        <ul class="skill-list list-flat">
+          <li>Web Technology</li>
+          <li>HTML / CSS / SASS / Javascript</li>
+        </ul>
+        <ul class="skill-list list-flat">
+          <li>Database</li>
+          <li>MySQL / MongoDB / MSSQL / Access / Excel</li>
+        </ul>
+        <ul class="skill-list list-flat">
+          <li>Data Science Tools</li>
+          <li>R / PowerBi</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Quote -->
+    <div class="quote">
+      <div class="container text-centered">
+        <h1>Work In Progress.</h1>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="units-row">
+          <div class="unit-50">
+            <p>Handcrafted by Armaan M</p>
+          </div>
+          <div class="unit-50">
+            <ul class="social list-flat right">
+              <li>
+                <a href="https://github.com/armnJs" target="_blank"
+                  ><i class="fa fa-github"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </footer>
+
+    <!-- Javascript -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/typed.min.js"></script>
+    <script src="js/kube.min.js"></script>
+    <script src="js/site.js"></script>
     <script>
-      window.addEventListener("scroll", function () {
-        const header = document.querySelector("header");
-        if (window.scrollY > 50) {
-          header.classList.add("transparent");
-        } else {
-          header.classList.remove("transparent");
-        }
+      function newTyped() {}
+      $(function () {
+        $("#typed").typed({
+          // Change to edit type effect
+          strings: ["Exploration", "Extraction", "Evaluation"],
+
+          typeSpeed: 90,
+          backDelay: 700,
+          contentType: "html",
+          loop: !0,
+          resetCallback: function () {
+            newTyped();
+          },
+        }),
+          $(".reset").click(function () {
+            $("#typed").typed("reset");
+          });
       });
     </script>
   </body>
