@@ -1,0 +1,88 @@
+\documentclass{resume} % Use the custom resume.cls style
+\usepackage[left=0.4in,top=0.4in,right=0.4in,bottom=0.4in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Armaan Shafiq Mangaonkar} % Your name
+
+\address{+91 8424952906 \\ Goregaon, Mumbai} 
+\address{\href{mailto:armaanshaikh0706@gmail.com}{armaanshaikh0706@gmail.com} \\ \href{https://techadnan-v500nm.vercel.app/}{techadnan-v500nm.vercel.app}}  %
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	PROFESSIONAL SUMMARY
+%----------------------------------------------------------------------------------------
+\section{Professional Summary - Jr. Data Scientist} 
+Enthusiastic Data Analyst with a strong foundation in statistics, SQL, Excel, and Python. Skilled in data cleaning, analysis, and visualization using Tableau and Power BI. Experienced through academic projects and eager to deliver insights that support data-driven decisions.
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+\section{Education}
+
+\textbf{Bachelor of Science - Data Science}, M.L. Dahanukar College \hfill 2024 - 2027\\
+CGPA: 7.4
+
+\textbf{Higher Secondary Certificate (HSC) - PCM}, Alpha Junior College \hfill 2024\\
+Percentage: 54.00\%
+
+\textbf{Secondary School Certificate (SSC)}, J. A. Meghani English High School \hfill 2022\\
+Percentage: 72.60\%
+
+%----------------------------------------------------------------------------------------
+%	SKILLS
+%----------------------------------------------------------------------------------------
+\section{Skills}
+
+\textbf{Technical}:  MSSQl Server, Git, SQL, HTML/CSS, JavaScript\\
+\textbf{Soft Skills}: Effective Communication, Collaboration, Problem-Solving, Time Management, Analytical Decision-Making
+
+%----------------------------------------------------------------------------------------
+%	PROJECTS & FREELANCE WORK
+%----------------------------------------------------------------------------------------
+\section{Projects}
+
+\textbf{Student Data Analysis} \hfill [SQL Server, R, Excel]\\
+An Analytical Operation to process insightful dashboards and simplify data of very large dataset.
+\href{https://iskratech.vercel.app}{(View Project)}
+
+
+%----------------------------------------------------------------------------------------
+%	ACHIEVEMENTS
+%----------------------------------------------------------------------------------------
+\section{Achievements}
+
+\begin{itemize} \itemsep -1pt
+    \item Discipline Course \textbf{AI Tools} weekly workshop based on applications of 10+ AI Tools.
+    \item Technical Lead \textbf{Social Sutra} Intercollegiate Event on multiple cultural fun lead to handle 80+ participants.
+    \item Lead Security Team \textbf{GlamNGlitz} talent hunt event, drawing 200+ attendees.
+    
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+%	Personal Details
+%----------------------------------------------------------------------------------------
+\section{Personal Details}
+
+\begin{itemize} \itemsep -1pt
+    \item \textbf{DOB:} 07-Jun-2006   \textbf{Gender:} Male.
+
+    \item \textbf{Marital Status:} Single.
+    \item \textbf{Languages Known:} English, Urdu, Hindi, Marathi.
+    
+\end{itemize}
+%----------------------------------------------------------------------------------------
+%	Declaration
+%----------------------------------------------------------------------------------------
+\section{Declaration}
+
+\begin{itemize} \itemsep -1pt
+    \item I hereby declare that the above-mentioned is correct up to my knowledge and I bear the responsibility for the correctness of the above mentioned particulars. 
+    
+    \hfill Armaan Shafiq Mangaonkar\\
+    
+\end{itemize}
+
+\end{document}
+
+\end{document}
