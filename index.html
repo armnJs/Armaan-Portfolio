@@ -25,11 +25,18 @@
       type="text/css"
     />
     <style>
-      .intro h1:before {
-        margin-left: -8rem;
-        /* Edit this with your name or anything else */
-        content: "Armaan";
-      }
+		.intro h1::before {
+			content: "Armaan"; /* Modify this to your name */
+			font-size: 12rem; /* Adjust as needed */
+		  }
+		  
+		  @media only screen and (max-width: 600px) {
+			.intro h1::before {
+				margin-left: 14rem;
+			  font-size: 8rem; /* Smaller text for smaller screens */
+			}
+		  }
+		  
       .menu {
         position: relative;
         display: inline-block;
@@ -61,7 +68,7 @@
       .options li:hover {
         background: #ddd;
         transition: 1.5s;
-      }	  
+      }
     </style>
   </head>
   <body>
@@ -160,8 +167,8 @@
         <ul class="award-list list-flat">
           <li></li>
           <li>
-            1. Discipline Course AI Tools weekly workshop based on applications of
-            10+ AI Tools.
+            1. Discipline Course AI Tools weekly workshop based on applications
+            of 10+ AI Tools.
           </li>
           <li>
             2. Technical Lead Social Sutra Intercollegiate Event on multiple
