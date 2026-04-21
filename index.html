@@ -1,119 +1,62 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Armaan M</title>
+    <title>Armaan M | Data Scientist</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Armaan is aspiring Data Scientist &amp; SQL Developer"
+      content="Armaan is an AI Orchestrator & Data Scientist specializing in Real-Time Implementation."
     />
-    <meta name="author" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Armaan M" />
     <link rel="stylesheet" href="css/kube.min.css" />
     <link rel="stylesheet" href="css/font-awesome.min.css" />
     <link rel="stylesheet" href="css/custom.min.css" />
     <link rel="shortcut icon" href="img/favicon.ico" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Playfair+Display+SC:700"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Lato:400,700"
-      rel="stylesheet"
-      type="text/css"
-    />
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC:700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet" type="text/css" />
     <style>
-		.intro h1::before {
-			content: "Armaan"; /* Modify this to your name */
-			font-size: 12rem; /* Adjust as needed */
-		  }
-		  
-		  @media only screen and (max-width: 600px) {
-			.intro h1::before {
-				margin-left: 14rem;
-			  font-size: 8rem; /* Smaller text for smaller screens */
-			}
-		  }
-		  
-      .menu {
-        position: relative;
-        display: inline-block;
-        cursor: pointer;
+      .intro h1::before {
+        content: "Armaan";
+        font-size: 12rem;
       }
-
+      @media only screen and (max-width: 600px) {
+        .intro h1::before {
+          margin-left: 2rem; /* Adjusted for better mobile fit */
+          font-size: 6rem;
+        }
+      }
+      .menu { position: relative; display: inline-block; cursor: pointer; }
       .options {
-        display: none;
-        position: absolute;
-        width: 12rem;
-        top: 100%;
-        left: 0;
-        background: #f4f4f4;
-        padding: 10px;
-        list-style: none;
-        border: 1px solid #ccc;
-        transition: 1.5s;
+        display: none; position: absolute; width: 12rem; top: 100%; left: 0;
+        background: #f4f4f4; padding: 10px; list-style: none; border: 1px solid #ccc;
+        z-index: 1000;
       }
-
-      .menu:hover .options {
-        display: block;
-      }
-
-      .options li {
-        padding: 5px 10px;
-        cursor: pointer;
-      }
-
-      .options li:hover {
-        background: #ddd;
-        transition: 1.5s;
+      .menu:hover .options { display: block; }
+      .options li { padding: 5px 10px; cursor: pointer; }
+      .options li:hover { background: #ddd; transition: 0.3s; }
+      .project-tag { 
+        display: inline-block; background: #eee; padding: 2px 8px; 
+        border-radius: 4px; font-size: 0.8rem; margin-right: 5px; margin-top: 5px;
       }
     </style>
   </head>
   <body>
-    <!-- Navigation -->
     <div class="main-nav">
       <div class="container">
         <header class="group top-nav">
-          <div
-            class="navigation-toggle"
-            data-tools="navigation-toggle"
-            data-target="#navbar-1"
-          >
+          <div class="navigation-toggle" data-tools="navigation-toggle" data-target="#navbar-1">
             <span class="logo">Armaan M</span>
           </div>
-          <nav
-            id="navbar-1"
-            class="navbar item-nav"
-            style="display: flex; justify-content: space-between; width: 100%"
-          >
-            <ul>
-              <li style="font-size: large">Armaan M</li>
-            </ul>
+          <nav id="navbar-1" class="navbar item-nav" style="display: flex; justify-content: space-between; width: 100%">
+            <ul><li style="font-size: large">Armaan M</li></ul>
             <ul>
               <li class="active"><a href="#about">About</a></li>
-              <li><a href="#experiences">Experiences</a></li>
-              <li><a href="#achievements">Achievements</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#experiences">Leadership</a></li>
               <li><a href="#skills">Skills</a></li>
-              <li class="menu">
-                Resume
-                <ul class="options">
-                  <li>
-                    <a href="./assets/ds_resume.pdf" target="_blank"
-                      >Data Science</a
-                    >
-                  </li>
-                  <li>
-                    <a href="./assets/da_resume.pdf" target="_blank"
-                      >Data Analytics</a
-                    >
-                  </li>
-                  <li>
-                    <a href="./assets/sql_resume.pdf" target="_blank"
-                      >SQL Developer</a
-                    >
-                  </li>
+              <li class="menu"> Resume <ul class="options">
+                  <li><a href="./assets/ds_resume.pdf" target="_blank">Download PDF</a></li>
                 </ul>
               </li>
             </ul>
@@ -122,89 +65,93 @@
       </div>
     </div>
 
-    <!-- Introduction -->
     <div class="intro section" id="about">
       <div class="container">
-        <p>I’m Armaan M - Aspiring Data Scientist</p>
+        <p>I’m Armaan M — AI Orchestrator & Aspiring Data Scientist</p>
         <div class="units-row units-split wrap">
           <div class="unit-20">
-            <img src="img/armnProfile.jpg" alt="Avatar" />
+            <img src="img/armnProfile.jpg" alt="Avatar" style="border-radius: 8px;" />
           </div>
           <div class="unit-80">
             <h1>I Thrive for<br /><span id="typed"></span></h1>
           </div>
           <p>
-            Armaan is an aspiring Data Scientist with a strong interest in data
-            science, analytics, and database development. Driven by a passion
-            for uncovering patterns, generating insights, and crafting
-            data-driven solutions, Armaan combines statistical expertise,
-            machine learning techniques, and SQL proficiency to transform raw
-            data into meaningful outcomes. Grounded in analytical thinking and
-            precision, Armaan approaches each challenge with a mindset of
-            continuous learning and improvement—consistently evolving, adapting,
-            and contributing to the ever-changing landscape of modern data.
+            Armaan is a Data Science specialist focused on <strong>Agentic AI</strong> and 
+            <strong>Real-Time Implementations</strong>. Beyond traditional analytics, he specializes in building 
+            autonomous systems that monitor, analyze, and act on data without human intervention. 
+            By combining SQL proficiency with modern orchestration tools like n8n and Python, 
+            Armaan bridges the gap between raw data and 100x operational efficiency.
           </p>
         </div>
       </div>
     </div>
 
-    <!-- Work Experience -->
+    <div class="work section second" id="projects">
+      <div class="container">
+        <h1>Autonomous<br />Projects</h1>
+        <ul class="work-list">
+          <li>
+            <a href="#">Logistics Sentinel</a>
+            <p>Predictive AI monitoring Mumbai traffic/weather to automate delivery rerouting via n8n.</p>
+            <span class="project-tag">Python</span><span class="project-tag">ML</span><span class="project-tag">Automation</span>
+          </li>
+          <li>
+            <a href="#">Retail AI Monitor</a>
+            <p>System that detects sales anomalies and auto-generates executive summaries using Gemini API.</p>
+            <span class="project-tag">SQL</span><span class="project-tag">LLMs</span><span class="project-tag">API</span>
+          </li>
+          <li>
+            <a href="https://github.com/armnJs/Caffiene-Intake-Dashboard" target="_blank">Caffeine Analytics</a>
+            <p>Deep-dive analysis and visualization of large-scale consumption datasets.</p>
+            <span class="project-tag">Tableau</span><span class="project-tag">Python</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
     <div class="work section second" id="experiences">
       <div class="container">
-        <h1>Work<br />Experiences</h1>
+        <h1>Leadership &<br />Roles</h1>
         <ul class="work-list">
-          <!-- <li>2014-2015</li> -->
-          <li><a href="#">Yet To Explore</a></li>
-          <!-- <li>Web Designer</li> -->
+          <li>
+            <a href="#">Director of Administration</a>
+            <span>Rotaract Club of ML Dahanukar | 2025 - Present</span>
+          </li>
+          <li>
+            <a href="#">General Body Member</a>
+            <span>Rotaract Club of ML Dahanukar | 2024 - 2025</span>
+          </li>
         </ul>
       </div>
     </div>
 
-    <!-- Award & Achievements -->
     <div class="award section second" id="achievements">
       <div class="container">
-        <h1>Award &amp;<br />Achievements</h1>
+        <h1>Certifications &<br />Achievements</h1>
         <ul class="award-list list-flat">
-          <li></li>
-          <li>
-            1. Discipline Course AI Tools weekly workshop based on applications
-            of 10+ AI Tools.
-          </li>
-          <li>
-            2. Technical Lead Social Sutra Intercollegiate Event on multiple
-            cultural fun lead to handle 80+ participants.
-          </li>
-          <li>
-            3. Lead Security Team GlamNGlitz talent hunt event, drawing 200+
-            attendees.
-          </li>
+          <li>1. <strong>Tata Group</strong>: GenAI Powered Data Analytics (June 2026)</li>
+          <li>2. <strong>Deloitte Australia</strong>: Data Analytics Job Simulation (May 2026)</li>
+          <li>3. <strong>Technical Lead</strong>: Social Sutra (Managed 80+ participants)</li>
+          <li>4. <strong>Security Lead</strong>: GlamNGlitz Talent Hunt (200+ attendees)</li>
         </ul>
       </div>
     </div>
 
-    <!-- Technical Skills -->
     <div class="skills section second" id="skills">
       <div class="container">
         <h1>Technical<br />Skills</h1>
         <ul class="skill-list list-flat">
-          <li>Web Technology</li>
-          <li>HTML / CSS / SASS / Javascript</li>
+          <li><strong>Languages & Logic</strong></li>
+          <li>Python (Pandas, Scikit-learn), R, SQL (SSMS), JavaScript</li>
         </ul>
         <ul class="skill-list list-flat">
-          <li>Database</li>
-          <li>MySQL / MongoDB / MSSQL / Access / Excel</li>
+          <li><strong>AI & Automation</strong></li>
+          <li>n8n Orchestration, Agentic Workflows, LLM Implementation, RAG</li>
         </ul>
         <ul class="skill-list list-flat">
-          <li>Data Science Tools</li>
-          <li>R / PowerBi</li>
+          <li><strong>Visualization</strong></li>
+          <li>PowerBI, Tableau, Excel (Advanced Dashboards)</li>
         </ul>
-      </div>
-    </div>
-
-    <!-- Quote -->
-    <div class="quote">
-      <div class="container text-centered">
-        <h1>Work In Progress.</h1>
       </div>
     </div>
 
@@ -212,44 +159,31 @@
       <div class="container">
         <div class="units-row">
           <div class="unit-50">
-            <p>Handcrafted by Armaan M</p>
+            <p>Handcrafted by Armaan M &copy; 2026</p>
           </div>
           <div class="unit-50">
             <ul class="social list-flat right">
-              <li>
-                <a href="https://github.com/armnJs" target="_blank"
-                  ><i class="fa fa-github"></i
-                ></a>
-              </li>
+              <li><a href="https://github.com/armnJs" target="_blank"><i class="fa fa-github"></i></a></li>
+              <li><a href="mailto:armaanshaikh0706@gmail.com"><i class="fa fa-envelope"></i></a></li>
             </ul>
           </div>
         </div>
       </div>
     </footer>
 
-    <!-- Javascript -->
     <script src="js/jquery.min.js"></script>
     <script src="js/typed.min.js"></script>
     <script src="js/kube.min.js"></script>
     <script src="js/site.js"></script>
     <script>
-      function newTyped() {}
       $(function () {
         $("#typed").typed({
-          // Change to edit type effect
-          strings: ["Exploration", "Extraction", "Evaluation"],
-
+          strings: ["Automation", "Implementation", "Orchestration"],
           typeSpeed: 90,
           backDelay: 700,
           contentType: "html",
-          loop: !0,
-          resetCallback: function () {
-            newTyped();
-          },
-        }),
-          $(".reset").click(function () {
-            $("#typed").typed("reset");
-          });
+          loop: true,
+        });
       });
     </script>
   </body>
