@@ -1,2 +1,7 @@
 .sass-cache
 config.codekit3
+node_modules
+.next
+next-env.d.ts
+.vercel
+*.tsbuildinfo
