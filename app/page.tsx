@@ -4,6 +4,7 @@ import GithubStats from "@/components/GithubStats";
 import Pipeline from "@/components/Pipeline";
 import Lab from "@/components/Lab";
 import Mindmap from "@/components/Mindmap";
+import RoleFit from "@/components/RoleFit";
 import Intro from "@/components/Intro";
 import WaveEdge from "@/components/WaveEdge";
 import Chat from "@/components/Chat";
@@ -52,8 +53,15 @@ export default function Page() {
           </div>
         </section>
 
-        <section id="lab" className="section band">
+        <section id="fit" className="section band">
           <WaveEdge from={ACC} />
+          <div className="wrap">
+            <Head n="03.5" kicker="ROLE-FIT MATCHER" title={<>Paste a JD. <em>See the match.</em></>} />
+            <RoleFit />
+          </div>
+        </section>
+
+        <section id="lab" className="section band">
           <div className="wrap">
             <Head n="04" kicker="THE LAB · RUNNING LIVE" title={<>Models in <em>motion.</em></>} />
             <Lab />

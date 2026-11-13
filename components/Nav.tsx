@@ -5,7 +5,7 @@ import { links } from "@/lib/data";
 import { setTheme, syncMeta, useTheme } from "@/lib/theme";
 
 const ITEMS = [
-  ["Projects", "#projects"], ["About", "#about"], ["Skills", "#skills"], ["Lab", "#lab"],
+  ["Projects", "#projects"], ["About", "#about"], ["Skills", "#skills"], ["Role fit", "#fit"], ["Lab", "#lab"],
   ["Track record", "#track"], ["Now", "#now"], ["Pit stop", "#contact"],
 ];
 

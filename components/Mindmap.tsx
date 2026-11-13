@@ -108,7 +108,7 @@ export default function Mindmap() {
           setActive(idx);
         });
 
-        ScrollTrigger.create({ animation: tl, trigger: root.current, start: "center center", end: "+=1800", pin: true, scrub: 0.7 });
+        ScrollTrigger.create({ animation: tl, trigger: root.current, start: "center center", end: "+=1800", pin: true, anticipatePin: 1, refreshPriority: 1, scrub: 0.7 });
       });
       mm.add("(prefers-reduced-motion: reduce)", () => setActive(99));
       return () => mm.revert();

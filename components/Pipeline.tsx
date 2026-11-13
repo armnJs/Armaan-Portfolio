@@ -101,6 +101,8 @@ export default function Pipeline() {
           start: "center center",
           end: "+=1900",
           pin: true,
+          anticipatePin: 1,
+          refreshPriority: 2, // measured before the Skills pin below it, so spacing stacks correctly
           scrub: 0.6,
           onUpdate: (self) => {
             const p = self.progress;

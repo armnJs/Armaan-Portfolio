@@ -117,7 +117,14 @@ export default function Motion() {
 
     ScrollTrigger.sort();
     ScrollTrigger.refresh();
-    return () => mm.revert();
+    // layout shifts after fonts/images load would leave the two pinned sections mis-measured
+    const refresh = () => ScrollTrigger.refresh();
+    document.fonts?.ready.then(refresh);
+    window.addEventListener("load", refresh);
+    return () => {
+      window.removeEventListener("load", refresh);
+      mm.revert();
+    };
   });
 
   return (
